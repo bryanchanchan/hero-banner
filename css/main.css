@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  text-align: left;
+  max-height: 500px;
+}
+
+.banner .img-flex {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  max-width: 50em;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: .75rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.banner-content h1
+.banner-content p {
+  margin: 0;
+}
