@@ -31,7 +31,7 @@ body {
   transform: translateX(-50%);
 }
 
-h1 {
+h2 {
   font-size: 4rem;
   color: #fff;
   margin-bottom: .75rem;
@@ -45,7 +45,7 @@ p {
   margin-top: 0;
 }
 
-.banner-content h1
+.banner-content h2
 .banner-content p {
   margin: 0;
 }
